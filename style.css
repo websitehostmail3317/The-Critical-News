@@ -7,6 +7,23 @@ body {
     background-color: black;
 }
 
+
+
+.contact {
+    border-color: darkred;
+    border-style: solid;
+}
+
+.recent {
+    border-color: darkred;
+    border-style: solid;
+}
+
+.region {
+    border-color: darkred;
+    border-style: solid;
+}
+
 .title {
     border-color: darkred;
     border-style: solid;
