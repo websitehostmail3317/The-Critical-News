@@ -1,17 +1,21 @@
+a {
+    color: limegreen;
+    text-decoration: none;
+    transition: color 0.3s ease;       /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition*/
+}
+
+a:hover {
+    color: greenyellow;                  /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/color*/
+}
+
 body {
     background-color: black;
     color: white;
 }
 
-
-
 .intro-presentation {
     color: white;                     /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/color*/
 }
-
-
-
-
 
 .main-lists {
     align-items: center;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items*/
@@ -24,25 +28,15 @@ body {
 }
 
 .top-bar {                              
-    align-items: center;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items*/
-    background-color: black;          /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-color*/
-    border-color: limegreen;          /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-color*/
-    border-style: solid;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-style*/
-    column-gap: 0px;                    /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/column-gap*/
-    display: flex;                      /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/*/
-    flex-grow: 1;                       /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/*/
-    flex-shrink: 1;                     /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-shrink*/
-    flex-wrap: nowrap;                  /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/*/
-    justify-content: space-evenly;      /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/justify-content*/
+    align-items: center; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items*/
+    background-color: black; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-color*/
+    border-color: limegreen; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-color*/
+    border-style: solid; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-style*/
+    column-gap: 0px; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/column-gap*/
+    display: flex; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/*/
+    flex-grow: 1; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/*/
+    flex-shrink: 1; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-shrink*/
+    flex-wrap: nowrap; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/*/
+    justify-content: space-evenly; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/justify-content*/
     position: fixed; left: 0; right: 0; top: 01px;
-}
-
-.top-bar a {
-    color: limegreen;
-    text-decoration: none;
-    transition: color 0.3s ease;       /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition*/
-}
-
-.top-bar a:hover {
-    color: greenyellow;                  /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/color*/
 }
