@@ -1,4 +1,4 @@
-a {
+.top-bar a {
     text-decoration: none;
     color: red;
 }
@@ -9,10 +9,9 @@ body {
 
 .top-bar {
     align-items: center;                /**/
-    background-color: rgb(0, 0, 0);   /**/
-    border-color: red;            /**/
+    background-color: black;          /**/
+    border-color: red;                /**/
     border-style: solid;                /**/
-    color: red;
     column-gap: 0px;                    /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/column-gap*/
     display: flex;                      /**/
     flex-grow: 1;                       /**/
