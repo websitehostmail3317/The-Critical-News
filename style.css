@@ -18,8 +18,14 @@ body {
 }
 
 .list-analyse {
+    align-items: center;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items*/
     border-color: limegreen; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-color*/
     border-style: solid; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-style*/
+    column-gap: 0px;
+    display: flex; 
+    flex-direction: row;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts*/
+    justify-content: space-evenly;
+    place-items: center stretch;        /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/place-items*/
 }
 
 .main-lists {
