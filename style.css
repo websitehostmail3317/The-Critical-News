@@ -38,5 +38,5 @@ body {
     flex-shrink: 1; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-shrink*/
     flex-wrap: nowrap; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/*/
     justify-content: space-evenly; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/justify-content*/
-    position: fixed; left: 0; right: 0; top: 01px;
+    position: sticky; left: 0; right: 0; top: 01px;
 }
