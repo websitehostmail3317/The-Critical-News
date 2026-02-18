@@ -28,11 +28,7 @@ body {
     justify-content: space-evenly;
     place-items: center stretch;        /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/place-items*/
 }
-/*
-.list-analyse .dt-iran {
 
-}
-*/
 .main-lists {
     align-items: center; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items*/
     column-gap: 0px;
