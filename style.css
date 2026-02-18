@@ -1,6 +1,11 @@
 .top-bar a {
-    text-decoration: none;
     color: red;
+    text-decoration: none;
+    transition: color 0.3s ease;       /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition*/
+}
+
+.top-bar a:hover {
+    color: darkred;
 }
 
 body {
