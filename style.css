@@ -1,4 +1,10 @@
 .top-bar a {
+    color: white;                    
+    text-decoration: none;
+    transition: color 0.3s ease;       /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition*/
+}
+
+.top-bar a {
     color: red;
     text-decoration: none;
     transition: color 0.3s ease;       /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition*/
@@ -13,9 +19,9 @@ body {
 }
 
 .main-lists {
-    
+    align-items: center;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items*/
 }
-.top-bar {
+.top-bar {                              
     align-items: center;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items*/
     background-color: black;          /**/
     border-color: red;                /**/
