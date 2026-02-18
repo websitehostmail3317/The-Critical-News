@@ -16,6 +16,6 @@ body {
     flex-grow: 1;                       /**/
     flex-shrink: 1;                     /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-shrink*/
     flex-wrap: nowrap;                  /**/
-    font: 1.2rem "fantasy";
+    column-gap: 0px;
     justify-content: space-between;     /**/
 }
