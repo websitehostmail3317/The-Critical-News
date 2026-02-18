@@ -23,7 +23,7 @@ body {
 .top-bar {                              
     align-items: center;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items*/
     background-color: black;          /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-color*/
-    border-color: red;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-color*/
+    border-color: green;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-color*/
     border-style: solid;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-style*/
     column-gap: 0px;                    /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/column-gap*/
     display: flex;                      /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/*/
@@ -38,11 +38,11 @@ body {
 }
 
 .top-bar a {
-    color: red;
+    color: green;
     text-decoration: none;
     transition: color 0.3s ease;       /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition*/
 }
 
 .top-bar a:hover {
-    color: darkred;                  /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/color*/
+    color: darkolivegreen;                  /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/color*/
 }
