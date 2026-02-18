@@ -20,7 +20,6 @@ body {
     column-gap: 1%;
     display: flex; 
     flex-direction: column;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts*/
-    gap: left; 0px right; 0; top; 0
     justify-content: space-evenly;
     place-items: center stretch;        /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/place-items*/
 }
@@ -36,7 +35,6 @@ body {
     column-gap: 1%;
     display: flex; 
     flex-direction: column;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts*/
-    gap: left; 0px right; 0; top; 0
     justify-content: space-evenly;
     place-items: center stretch;        /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/place-items*/
 }
