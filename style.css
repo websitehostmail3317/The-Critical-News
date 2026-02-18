@@ -9,9 +9,9 @@ body {
 .top-bar {
     align-items: center;                /**/
     background-color: rgb(0, 0, 0);   /**/
-    border-color: darkred;            /**/
+    border-color: red;            /**/
     border-style: solid;                /**/
-    color: darkred;
+    color: red;
     column-gap: 0px;                    /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/column-gap*/
     display: flex;                      /**/
     flex-grow: 1;                       /**/
@@ -21,5 +21,5 @@ body {
     justify-content: space-between;     /**/
     position: fixed;
     right: 0;
-    top: 03px;
+    top: 01px;
 }
