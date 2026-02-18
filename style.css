@@ -13,6 +13,18 @@ body {
     color: white;
 }
 
+.index-html {
+    align-items: center;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items*/
+    border-color: limegreen; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-color*/
+    border-style: solid; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-style*/
+    column-gap: 1%;
+    display: flex; 
+    flex-direction: column;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts*/
+    gap: left; 0px right; 0; top; 0
+    justify-content: space-evenly;
+    place-items: center stretch;        /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/place-items*/
+}
+
 .intro-presentation {
     color: white;                     /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/color*/
 }
@@ -21,9 +33,10 @@ body {
     align-items: center;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items*/
     border-color: limegreen; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-color*/
     border-style: solid; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-style*/
-    column-gap: 5%;
+    column-gap: 1%;
     display: flex; 
     flex-direction: column;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts*/
+    gap: left; 0px right; 0; top; 0
     justify-content: space-evenly;
     place-items: center stretch;        /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/place-items*/
 }
