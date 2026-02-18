@@ -12,8 +12,11 @@ body {
 
 .main-lists {
     align-items: center;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items*/
+    column-gap: 0px;
     flex-direction: row;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts*/
+    justify-content: space-evenly;
     place-items: center stretch;        /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/place-items*/
+    
 }
 
 .top-bar {                              
