@@ -23,18 +23,15 @@ body {
 .top-bar {                              
     align-items: center;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items*/
     background-color: black;          /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-color*/
-    border-color: limegreen;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-color*/
+    border-color: limegreen;          /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-color*/
     border-style: solid;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-style*/
     column-gap: 0px;                    /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/column-gap*/
     display: flex;                      /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/*/
     flex-grow: 1;                       /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/*/
     flex-shrink: 1;                     /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex-shrink*/
     flex-wrap: nowrap;                  /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/*/
-    left: 0;
     justify-content: space-evenly;      /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/justify-content*/
-    position: fixed;
-    right: 0;
-    top: 01px;
+    position: fixed; left: 0; right: 0; top: 01px;
 }
 
 .top-bar a {
