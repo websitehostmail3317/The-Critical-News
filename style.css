@@ -17,6 +17,11 @@ body {
     color: white;                     /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/color*/
 }
 
+.list-analyse {
+    border-color: limegreen; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-color*/
+    border-style: solid; /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-style*/
+}
+
 .main-lists {
     align-items: center;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items*/
     column-gap: 0px;
