@@ -1,6 +1,9 @@
 body {
     background-color: black;
+    color: white;
 }
+
+
 
 .intro-presentation {
     color: white;                     /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/color*/
