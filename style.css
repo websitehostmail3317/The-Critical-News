@@ -12,9 +12,13 @@ body {
     background-color: black;
 }
 
+.main-lists {
+    
+}
 .top-bar {
-    align-items: center;                /**/
+    align-items: center;                /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items*/
     background-color: black;          /**/
+    border-left: 10%;
     border-color: red;                /**/
     border-style: solid;                /**/
     column-gap: 0px;                    /*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/column-gap*/
